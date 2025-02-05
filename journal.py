@@ -97,7 +97,6 @@ if "show_signup" not in st.session_state:
 def logout():
     st.session_state["logged_in"] = False
     st.session_state["username"] = None
-    st.rerun()
 
 
 if not st.session_state["logged_in"]:
