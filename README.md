@@ -50,3 +50,26 @@ A secure, user-friendly journal app built using Python and Streamlit, allowing u
   "content": "today was not as bad as I thought it would.",
   "timestamp": "2025-02-03 20:48:30"
 }
+```
+---
+## 🖼️ App Preview
+
+### 🔐 Login / Sign-Up
+![Login](screenshots/Login.png)
+![Create Account](screenshots/Create%20account.png)
+
+### 📒 Journal Functions
+- Add, view, delete, and search entries
+
+**Add Entry**  
+![Add Entry](screenshots/Add%20entry.png)
+
+**View Entries (Table View)**  
+![View 1](screenshots/view1.png)  
+![View 2](screenshots/view2.png)
+
+**Search Entries**  
+![Search](screenshots/search.png)
+
+**Delete Entry / Account**  
+![Delete](screenshots/delete.png)
