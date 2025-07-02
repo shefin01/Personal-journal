@@ -1,65 +1,68 @@
-# 📓 Personal Journal App – Streamlit Project
 
-A secure, user-friendly journal app built using Python and Streamlit, allowing users to create, view, search, and delete private journal entries. All data is stored locally in structured JSON format with persistent login functionality.
+# 📓 Personal Journal App – Streamlit & Python
+
+A secure, minimal digital journal application that lets users record and manage personal thoughts and experiences using a simple Streamlit interface.
 
 ---
 
-## 💡 Features
-- 🧾 Create, view, and search personal journal entries  
-- 🔒 User authentication with hashed passwords  
-- 🧹 Clean UI with tabs for Add/View/Delete/Search  
-- 🗃️ Entries saved with timestamps  
-- 🔐 Option to delete your account and all data
+## 🚀 What It Does
+
+- Lets users **create, view, search, and delete journal entries**
+- Stores entries in a structured **JSON** format
+- Preserves session and user data locally
+- Provides a distraction-free journaling experience
 
 ---
 
 ## 🛠️ Tech Stack
+
 - **Python**
-- **Streamlit** for UI
-- **JSON** for data storage
-- **Hashlib** for password security
-- **Pandas** for table views
+- **Streamlit** (for web interface)
+- **JSON** (for data storage)
+- **Datetime**, **OS** libraries (for managing entries)
 
 ---
 
-## 🔍 How It Works
-- Users sign up or log in (passwords are securely hashed)
-- Each user’s entries are stored in `journal_entries.json`
-- Users can:
-  - 📝 Add new entries  
-  - 📖 View past entries  
-  - 🔍 Search by keyword  
-  - ❌ Delete entries  
-  - 🗑️ Delete their entire account and data
+## 📁 Project Structure
 
----
-
-## 📁 File Structure
-- `personal.py` – Main Streamlit app  
-- `user.json` – Stores user login data (hashed passwords)  
-- `journal_entries.json` – Stores journal entries
-
----
-
-## 🖼️ Sample Entry Format
-
-```json
-{
-  "username": "shefin",
-  "title": "not a bad day",
-  "content": "today was not as bad as I thought it would.",
-  "timestamp": "2025-02-03 20:48:30"
-}
 ```
+
+Personal-Journal-App/
+├── personal.py               # Main Streamlit app
+├── journal\_entries.json      # Stored journal data
+├── user.json                 # User credentials
+├── Screenshots/
+│   ├── Add\_entry.png
+│   ├── Login.png
+│   ├── Create\_account.png
+│   ├── Delete.png
+│   ├── Search.png
+│   ├── View1.png
+│   └── View2.png
+└── README.md                 # This file
+
+````
+
 ---
+
+## 🔐 Features
+
+- **User login + account creation**
+- **Search entries by keyword or date**
+- **Delete entries securely**
+- **All data saved locally in JSON format**
+- **Private, secure, and lightweight**
+
+---
+
+## 🖼️ Screenshots
+
 ## 🖼️ App Preview
 
 ### 🔐 Login / Sign-Up
 ![Login](Screenshots/Login.png)
-![Create Account](Screenshots/Create%20account.png)
+![Create Account](screenshots/Create%20account.png)
 
-### 📒 Journal Functions
-- Add, view, delete, and search entries
 
 **Add Entry**  
 ![Add Entry](Screenshots/Add%20entry.png)
@@ -73,3 +76,30 @@ A secure, user-friendly journal app built using Python and Streamlit, allowing u
 
 **Delete Entry / Account**  
 ![Delete](Screenshots/delete.png)
+
+---
+
+## ▶️ How to Run
+
+```bash
+# Clone the repo
+git clone https://github.com/shefin01/Personal-Journal-App.git
+cd Personal-Journal-App
+
+# Install dependencies
+pip install streamlit
+
+# Run the app
+streamlit run personal.py
+````
+
+---
+
+## 📅 Date
+
+January 2025
+
+## 👤 Author
+
+**Mohammed Shefin**
+[GitHub – shefin01](https://github.com/shefin01)
