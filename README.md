@@ -55,21 +55,21 @@ A secure, user-friendly journal app built using Python and Streamlit, allowing u
 ## 🖼️ App Preview
 
 ### 🔐 Login / Sign-Up
-![Login](screenshots/Login.png)
-![Create Account](screenshots/Create%20account.png)
+![Login](Screenshots/Login.png)
+![Create Account](Screenshots/Create%20account.png)
 
 ### 📒 Journal Functions
 - Add, view, delete, and search entries
 
 **Add Entry**  
-![Add Entry](screenshots/Add%20entry.png)
+![Add Entry](Screenshots/Add%20entry.png)
 
 **View Entries (Table View)**  
-![View 1](screenshots/view1.png)  
-![View 2](screenshots/view2.png)
+![View 1](Screenshots/view1.png)  
+![View 2](Screenshots/view2.png)
 
 **Search Entries**  
-![Search](screenshots/search.png)
+![Search](Screenshots/search.png)
 
 **Delete Entry / Account**  
-![Delete](screenshots/delete.png)
+![Delete](Screenshots/delete.png)
